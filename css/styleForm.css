@@ -1,0 +1,288 @@
+.register{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+
+.banner{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+.register .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: blue;
+    background: linear-gradient(to right, red 10%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.register .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.register .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: blue;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 0 0 0 5px;
+
+}
+.register .drop-down{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: blue;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.register .input-text:focus + .label,
+.register .input-text.not-empty + .label{
+    transform: translateY(-24px);
+    
+}
+.register .drop-down:focus + .label,
+.register .drop-down.not-empty + .label{
+    transform: translateY(-24px);
+}
+
+.register .input-text:focus{
+    outline: none;
+}
+
+.register .drop-down:focus{
+    outline: none;
+}
+.register .label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 14px 0px;
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: transform 0.4s ease-in-out;
+}
+.register .form-field .submit{
+    display: inline-block;
+    background-image: linear-gradient(125deg, blue, gray);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+.register .form-field .button{
+    display: inline-block;
+    background-image: linear-gradient(125deg, blue, gray);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 5px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+}
+
+#nav-bar mr-auto
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    color: #000;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #3498db;
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none;
+}
+
+.nav-link
+{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.register{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+
+.banner{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+.register .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: blue;
+    background: linear-gradient(to right, red 10%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.register .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.register .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: blue;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 0 0 0 5px;
+
+}
+.register .drop-down{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: blue;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.register .input-text:focus + .label,
+.register .input-text.not-empty + .label{
+    transform: translateY(-24px);
+    
+}
+.register .drop-down:focus + .label,
+.register .drop-down.not-empty + .label{
+    transform: translateY(-24px);
+}
+
+.register .input-text:focus{
+    outline: none;
+}
+
+.register .drop-down:focus{
+    outline: none;
+}
+.register .label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 14px 0px;
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: transform 0.4s ease-in-out;
+}
+.register .form-field .submit{
+    display: inline-block;
+    background-image: linear-gradient(125deg, blue, gray);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+.register .form-field .button{
+    display: inline-block;
+    background-image: linear-gradient(125deg, blue, gray);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 5px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+}
+

@@ -1,0 +1,75 @@
+#nav-bar mr-auto
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    color: #000;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #3498db;
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none;
+}
+
+.nav-link
+{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+#contact .col-sm-7
+{
+    padding: 5px;
+    text-align: center;
+    border-radius: 24px;
+    border-color: white;
+
+}
+
+#contact .col-sm-7:hover
+{
+    color: #3498db;
+}
+
+#contact .col-sm-3
+{
+    padding-top: 70px;
+}
+
+#contact .col-sm-9
+{
+    padding: 5px;
+    text-align: center;
+    border-radius: 24px;
+    border-color: #3498db;
+
+}

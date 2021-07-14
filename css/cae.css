@@ -1,0 +1,104 @@
+#nav-bar mr-auto
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    color: #000;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #3498db;
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none;
+}
+
+.nav-link
+{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.logo{
+    max-width: 25%;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+.name{
+    max-width: 55%;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    
+}
+
+
+
+.leftside{
+    height: 50vh;
+    width: 45%;
+    margin-left: 30px;
+    
+}
+.rightside{
+    height: 50vh;
+    width: 95%;
+    
+
+}
+.bottomleftside{
+    height: 40vh;
+    width: 90%;
+   /* background: red;*/
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.bottomrightside{
+    height: 40vh;
+    width: 95%;
+    
+    margin-top: 10px;
+}
+
+.fceDes1{
+    font-size: 1.8em;
+    font-style: italic;
+    padding-top: 20px;
+}
+.fceDes2{
+    font-size: 1.8em;
+    font-style: italic;
+    padding-top: 10px;
+}
